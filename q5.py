@@ -119,7 +119,7 @@ def solve(input_matrix: list):
 
     elif (rank < len(augmented_matrix)):
         print("arbitrary solution")
-        # TODO: NEEDS ARBITRARY SOLUTION
+        # TODO: #1 NEEDS ARBITRARY SOLUTION
 
     else:
         unique_sol = "Unique solution:\t"
@@ -141,7 +141,8 @@ def main():
                    [1, 2, 3, 4, 0],
                    [-4, 0, 1, 3, -4]]
 
-    file = open("test.txt", 'r')
+    #TODO: #2 Implement file operations to read matrix
+    # file = open("test.txt", 'r')
 
     solve(test_matrix)
 
