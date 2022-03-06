@@ -1,4 +1,4 @@
-# Gauss-Jordan Method Implementation Report
+# Gauss-Jordan-Solver
 
 This program solves given matrixes with the help of Gauss-Jordan Elimination Method. We used Fractions library of Python to reduce inaccuracy in floating point operations. To achieve this all the inputs read from files is saved as a Fraction instead of float/integer to matrix. Then the operations are done on Fraction format. After the solution completes, Fractions are converted to a floating point number with an accuracy of 6 digits after period (ex. 0,666667).
 
